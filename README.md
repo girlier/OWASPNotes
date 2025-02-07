@@ -58,7 +58,7 @@ This guide will walk you through five different web-based challenges that involv
 ### **Steps:**
 5. **Modify Password via the Toggle User Functionality:**
 - Send the following POST request:
-  ```http
+```http
   POST /challenges/t193c6634f049bcf65cdcac72269eeac25dbb2a6887bdb38873e57d0ef447bc3 HTTP/1.1
   Host: webserver
   Cookie: current=WjNWbGMzUXhNZz09; ...
@@ -81,7 +81,7 @@ This guide will walk you through five different web-based challenges that involv
 
 1. **Modify Password via the Toggle User Functionality:**
 - Send the following POST request:
-  ```http
+```http
   POST /challenges/t193c6634f049bcf65cdcac72269eeac25dbb2a6887bdb38873e57d0ef447bc3 HTTP/1.1
   Host: webserver
   Cookie: current=WjNWbGMzUXhNZz09; ...
@@ -152,7 +152,7 @@ This guide will walk you through five different web-based challenges that involv
 9. **Send a Request to Change the Password:**
    - Modify the original request by changing `SendToken` to `ChangePass`.
    - Include the newly generated `resetPasswordToken`:
-     ```http
+```http
      POST /challenges/7aed58f3a00087d56c844ed9474c671f8999680556c127a19ee79fa5d7a132e1ChangePass HTTP/1.1
      Host: webserver
      Cookie: current=WjNWbGMzUXhNZz09; ...
