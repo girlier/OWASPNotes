@@ -124,7 +124,7 @@ This guide will walk you through five different web-based challenges that involv
 
 5. **Intercept the Password Reset Request:**
    - Capture the following request in Burp Suite or another intercepting proxy:
-     ```http
+```http
      POST /challenges/7aed58f3a00087d56c844ed9474c671f8999680556c127a19ee79fa5d7a132e1SendToken HTTP/1.1
      Host: webserver
      Cookie: current=WjNWbGMzUXhNZz09; ...
