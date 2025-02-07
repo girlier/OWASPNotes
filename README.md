@@ -108,6 +108,8 @@ This guide will walk you through five different web-based challenges that involv
 3. **Brute Force `SubSessionID`:**
 - Use **Burp Suite Intruder** with these settings:
   - **Payload:** Numerical (16 digits)
+  - **From** 0
+  - **To** 999
   - **Min Integer Digits:** 16
   - **Max Integer Digits:** 16
   - **Payload Processing:** Encode with base64 **twice**.
